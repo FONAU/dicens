@@ -1,0 +1,22 @@
+.authors-category{
+  margin-bottom: 1rem;
+}
+
+.authors-category-name{
+  font-weight: 500;
+  color: var(--accent-color-1);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.authors-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.authors-list .dicens-author-card{
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

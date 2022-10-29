@@ -1,0 +1,40 @@
+#popular-phrases{
+  background-color: var(--background-color-2);
+}
+
+.popular-phrase-text{
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.popular-phrase-author-name{
+  font-weight: 500;
+  opacity: 0.50;
+  cursor: pointer;
+}
+
+.popular-phrase-author-name:hover{
+  color: var(--accent-color-1);
+  opacity: 1;
+}
+
+.popular-phrase-author-info{
+  font-weight: 300;
+  opacity: 0.50;
+  margin-bottom: 1rem;
+}
+
+.popular-phrase-tags{
+  
+}
+
+#popular-authors-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#popular-authors-list .dicens-author-card{
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

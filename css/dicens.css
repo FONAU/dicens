@@ -1,0 +1,221 @@
+:root{
+  --text-color-1: #000;
+  --background-color-1: #FFF;
+  --background-color-2: #EEE;
+  --background-color-3: #212121;
+  --accent-color-1: #9E53A2;
+  --accent-color-2: #CC92C2;
+  --accent-color-3: #DBBCDC;
+}
+
+@font-face{
+  font-family: "Rubik";
+  src: url('fonts/Rubik-VariableFont.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Material Outlined-IconFont.woff2') format('woff2');
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik";
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color-1);
+  color: var(--text-color-1);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.dicens-container{
+  width: 100%;
+  max-width: 1140px;
+}
+
+.dicens-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.dicens-nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.dicens-nav-container div{
+  display: flex;
+  align-items: center;
+}
+
+#dicens-brand{
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.dicens-nav-link{
+  box-sizing: content-box;
+  font-weight: 500;
+  opacity: 0.50;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.dicens-nav-link:hover{
+  opacity: 1;
+}
+
+.dicens-main{
+
+}
+
+.dicens-section{
+  display: flex;
+  justify-content: center;
+}
+
+.dicens-section-container{
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.dicens-section-title{
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.dicens-author-card{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1rem;
+  max-width: 320px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.dicens-author-card:hover{
+  background-color: var(--accent-color-3);
+  border: 1px solid var(--accent-color-1);
+}
+
+.dicens-author-card:hover .dicens-author-card-name{
+  color: var(--accent-color-1);
+  opacity: 1;
+}
+
+.dicens-author-card-name{
+  font-weight: 500;
+  opacity: 0.50;
+}
+
+.dicens-author-card-info{
+  font-weight: 300;
+  opacity: 0.50;
+}
+
+.dicens-theme-tag{
+  display: inline-block;
+  background-color: var(--accent-color-2);
+  font-weight: 500;
+  padding: 8px 1rem;
+  margin-bottom: 4px;
+  opacity: 0.50;
+  border-radius: 1rem;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.dicens-theme-tag:hover{
+  opacity: 1;
+}
+
+.dicens-footer{
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color-3);
+  color: #FFF;
+  margin-top: auto;
+}
+
+.dicens-footer-container{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.dicens-footer-container div{
+  display: flex;
+  margin: 1rem 0;
+}
+
+#dicens-copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#dicens-copyright p{
+  opacity: 0.50;
+}
+
+#dicens-copyright a{
+  opacity: 0.50;
+}
+
+#dicens-legal-notice{
+  cursor: pointer;
+}
+
+#dicens-legal-notice:hover{
+  opacity: 1;
+}
