@@ -8,6 +8,7 @@
 }
 
 .popular-phrase-author-name{
+  display: inline-block;
   font-weight: 500;
   opacity: 0.50;
   cursor: pointer;
@@ -32,6 +33,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 #popular-authors-list .dicens-author-card{

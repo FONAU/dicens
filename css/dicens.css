@@ -133,10 +133,15 @@ body{
 
 .dicens-author-card{
   display: flex;
-  flex-direction: column;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   box-sizing: border-box;
   padding: 1rem;
-  max-width: 320px;
+  width: 342px;
+  max-width: 342px;
+  min-height: 124px;
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 1rem;
   cursor: pointer;
@@ -150,6 +155,23 @@ body{
 .dicens-author-card:hover .dicens-author-card-name{
   color: var(--accent-color-1);
   opacity: 1;
+}
+
+.dicens-author-card-avatar{
+  margin-right: 1rem;
+}
+
+.dicens-author-card-avatar img{
+  border-radius: 50%;
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  max-height: 32px;
+  object-fit: cover;
+}
+
+.dicens-author-card-text{
+  
 }
 
 .dicens-author-card-name{
@@ -193,29 +215,33 @@ body{
   padding: 2rem;
 }
 
-.dicens-footer-container div{
-  display: flex;
-  margin: 1rem 0;
+#dicens-socials{
+  margin-top: 1rem;
 }
 
-#dicens-copyright{
+#dicens-about{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
-#dicens-copyright p{
+#dicens-copyright{
+  margin-bottom: 1rem;
   opacity: 0.50;
 }
 
-#dicens-copyright a{
+#dicens-footer-links a{
   opacity: 0.50;
-}
-
-#dicens-legal-notice{
+  margin-right: 1rem;
   cursor: pointer;
 }
 
-#dicens-legal-notice:hover{
+#dicens-footer-links a:last-child{
+  margin-right: 0;
+}
+
+#dicens-footer-links a:hover{
   opacity: 1;
 }
