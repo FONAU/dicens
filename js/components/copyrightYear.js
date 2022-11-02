@@ -1,0 +1,1 @@
+document.getElementById("dicens-copyright-year").innerText = new Date().getFullYear();

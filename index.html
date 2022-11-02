@@ -13,22 +13,41 @@
     </head>
     <body>
         
+        <!-- MENU -->
+        <div id="dicens-menu" class="status-close">
+            <a id="menu-search-button" href="buscar.html">
+                <div>
+                    <span class="material-symbols-outlined">search</span>
+                    <p>Buscar</p>
+                </div>
+            </a>
+            <a href="autores.html" class="dicens-menu-link">Autores</a>
+            <a href="tematicas.html" class="dicens-menu-link">Temáticas</a>
+            <a href="frases-celebres.html" class="dicens-menu-link">Frases Célebres</a>
+            <a href="proverbios.html" class="dicens-menu-link">Proverbios</a>
+            <a href="refranes.html" class="dicens-menu-link">Refranes</a>
+        </div>
+        <div id="dicens-menu-mask" class="status-close" onclick="toggleMenu()"></div>
+
+        <!-- NAV -->
         <nav class="dicens-nav">
             <div class="dicens-container dicens-nav-container">
                 <div>
+                    <span id="dicens-menu-button" class="material-symbols-outlined dicens-nav-link" onclick="toggleMenu()">menu</span>
                     <a href="index.html"><p id="dicens-brand">Dicens</p></a>
                 </div>
-                <div>
+                <div id="dicens-nav-links">
                     <a href="autores.html" class="dicens-nav-link">Autores</a>
-                    <a class="dicens-nav-link">Temáticas</a>
-                    <a class="dicens-nav-link">Frases Célebres</a>
-                    <a class="dicens-nav-link">Proverbios</a>
-                    <a class="dicens-nav-link">Refranes</a>
-                    <span class="material-symbols-outlined dicens-nav-link">search</span>
+                    <a href="tematicas.html" class="dicens-nav-link">Temáticas</a>
+                    <a href="frases-celebres.html" class="dicens-nav-link">Frases Célebres</a>
+                    <a href="proverbios.html" class="dicens-nav-link">Proverbios</a>
+                    <a href="refranes.html" class="dicens-nav-link">Refranes</a>
+                    <a href="buscar.html"><span class="material-symbols-outlined dicens-nav-link">search</span></a>
                 </div>
             </div>
         </nav>
 
+        <!-- MAIN CONTENT -->
         <main class="dicens-main">
             <section id="popular-phrases" class="dicens-section">
                 <div class="dicens-container dicens-section-container">
@@ -120,14 +139,26 @@
             <section id=""></section>
         </main>
         
+        <!-- FOOTER -->
         <footer class="dicens-footer">
             <div class="dicens-container dicens-footer-container">
                 <div id="dicens-socials">
-                    <a>Instagram</a>
+                    <a href="https://www.instagram.com/dicens.es/">
+                        <div class="dicens-social">
+                            <img src="assets/icons/instagram.png">
+                            <p>Instagram</p>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/dicens_es">
+                        <div class="dicens-social">
+                            <img src="assets/icons/twitter.png">
+                            <p>Twitter</p>
+                        </div>
+                    </a>
                 </div>
                 <div id="dicens-about">
                     <div id="dicens-copyright">
-                        <p>© 2022 Dicens. Todos los derechos reservados</p>
+                        <p>© <span id="dicens-copyright-year"></span> Dicens. Todos los derechos reservados</p>
                     </div>
                     <div id="dicens-footer-links">
                         <a href="privacidad.html">Política de privacidad</a>
@@ -140,3 +171,6 @@
 
     </body>
 </html>
+
+<script src="js/components/menu.js"></script>
+<script src="js/components/copyrightYear.js"></script>
