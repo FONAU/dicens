@@ -1,3 +1,35 @@
+@media (prefers-color-scheme: dark) {
+  :root{
+    --text-color-1: #FFF;
+    --background-color-1: #424242;
+    --background-color-2: #212121;
+    --background-color-3: #111111;
+    --accent-color-1: #9E53A2;
+    --accent-color-2: #CC92C2;
+    --accent-color-3: #DBBCDC;
+    --text-opacity-1: 1;
+    --text-opacity-2: 0.92;
+    --text-opacity-3: 0.84;
+    --text-opacity-4: 0.72;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root{
+    --text-color-1: #000;
+    --background-color-1: #FFF;
+    --background-color-2: #EEE;
+    --background-color-3: #111111;
+    --accent-color-1: #9E53A2;
+    --accent-color-2: #CC92C2;
+    --accent-color-3: #DBBCDC;
+    --text-opacity-2: 0.72;
+    --text-opacity-3: 0.54;
+    --text-opacity-4: 0.27;
+    --text-opacity-5: 0.12;
+  }
+}
+
 :root{
   --text-color-1: #000;
   --background-color-1: #FFF;
@@ -6,6 +38,11 @@
   --accent-color-1: #9E53A2;
   --accent-color-2: #CC92C2;
   --accent-color-3: #DBBCDC;
+  --text-opacity-1: 1;
+  --text-opacity-2: 0.72;
+  --text-opacity-3: 0.54;
+  --text-opacity-4: 0.27;
+  --text-opacity-5: 0.12;
 }
 
 @font-face{
@@ -79,6 +116,7 @@ body{
   color: var(--text-color-1);
   min-height: 100vh;
   width: 100%;
+  /*! overflow: auto; */
 }
 
 .dicens-container{
@@ -87,8 +125,10 @@ body{
 }
 
 .dicens-nav{
+  position: sticky;
   display: flex;
   justify-content: center;
+  background: var(--background-color-1);
 }
 
 .dicens-nav-container{
@@ -120,7 +160,7 @@ body{
 .dicens-nav-link{
   box-sizing: content-box;
   font-weight: 500;
-  opacity: 0.50;
+  opacity: var(--text-opacity-3);
   padding: 1rem;
   cursor: pointer;
 }
@@ -144,7 +184,7 @@ body{
   height: 100%;
   top: 0;
   left: 0;
-  padding-top: 1rem;
+  padding-top: 2rem;
   box-shadow: 4px 0px 10px rgba(0,0,0,0.12);
   transition: all 0.3s ease;
   z-index: 9999;
@@ -166,7 +206,7 @@ body{
   top: 0;
   left: 0;
   transition: opacity 0.3s ease;
-  z-index: 1;
+  z-index: 99;
 }
 
 #dicens-menu-mask.status-open{
@@ -250,7 +290,7 @@ body{
   width: 342px;
   max-width: 342px;
   min-height: 124px;
-  border: 1px solid rgba(0,0,0,0.12);
+  border: 1px solid rgba(0,0,0,var(--text-opacity-4));
   border-radius: 1rem;
   cursor: pointer;
 }
@@ -271,25 +311,25 @@ body{
 
 .dicens-author-card-avatar img{
   border-radius: 50%;
-  min-width: 32px;
-  max-width: 32px;
-  min-height: 32px;
-  max-height: 32px;
+  min-width: 48px;
+  max-width: 48px;
+  min-height: 48px;
+  max-height: 48px;
   object-fit: cover;
 }
 
 .dicens-author-card-text{
-  
+
 }
 
 .dicens-author-card-name{
   font-weight: 500;
-  opacity: 0.50;
+  opacity: var(--text-opacity-3);
 }
 
 .dicens-author-card-info{
   font-weight: 300;
-  opacity: 0.50;
+  opacity: var(--text-opacity-3);
 }
 
 .dicens-theme-tag{
@@ -298,7 +338,7 @@ body{
   font-weight: 500;
   padding: 8px 1rem;
   margin-bottom: 4px;
-  opacity: 0.50;
+  opacity: 0.70;
   border-radius: 1rem;
   transition: opacity 0.3s ease;
   cursor: pointer;
@@ -337,7 +377,7 @@ body{
   cursor: pointer;
 }
 
-.dicens-social img{
+.dicens-social div{
   width: 32px;
   height: 32px;
   filter: invert(100%)
@@ -372,4 +412,14 @@ body{
 
 #dicens-footer-links a:hover{
   opacity: 1;
+}
+
+.icon-instagram{
+  background: url("../assets/icons/instagram.png") center;
+  background-size: cover;
+}
+
+.icon-twitter{
+  background: url("../assets/icons/twitter.png") center;
+  background-size: cover;
 }
