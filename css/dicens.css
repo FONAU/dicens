@@ -169,7 +169,7 @@ body{
   opacity: 1;
 }
 
-.dicens-nav-link-focus{
+.dicens-nav-link.focus{
   opacity: 1;
 }
 
@@ -255,7 +255,7 @@ body{
   opacity: 1;
 }
 
-.dicens-menu-link-focus{
+.dicens-menu-link.focus{
   background: var(--background-color-2);
   opacity: 1;
 }

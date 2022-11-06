@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Dicens</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dicens">
+        <meta name="description" content="Dicens es tu portal para encontrar frases celebres y proverbios de muchos autores">
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/dicens.css">
+        <link rel="stylesheet" href="../../css/authors.css">
+    </head>
+    <body>
+    <!-- MENU -->
+
+        <div id="dicens-menu" class="status-close">
+            <a id="menu-search-button" href="../../buscar.html">
+                <div>
+                    <span class="material-symbols-outlined">search</span>
+                    <p>Buscar</p>
+                </div>
+            </a>
+            <a href="../../autores.html" class="dicens-menu-link focus">Autores</a>
+            <a href="../../tematicas.html" class="dicens-menu-link">Temáticas</a>
+            <a href="../../frases-celebres.html" class="dicens-menu-link">Frases Célebres</a>
+            <a href="../../proverbios.html" class="dicens-menu-link">Proverbios</a>
+            <a href="../../refranes.html" class="dicens-menu-link">Refranes</a>
+        </div>
+        <div id="dicens-menu-mask" class="status-close" onclick="toggleMenu()"></div>
+
+    <!-- NAV -->
+
+        <nav class="dicens-nav">
+            <div class="dicens-container dicens-nav-container">
+                <div>
+                    <span id="dicens-menu-button" class="material-symbols-outlined dicens-nav-link" onclick="toggleMenu()">menu</span>
+                    <a href="../../index.html"><p id="dicens-brand">Dicens</p></a>
+                </div>
+                <div id="dicens-nav-links">
+                    <a href="../../autores.html" class="dicens-nav-link focus">Autores</a>
+                    <a href="../../tematicas.html" class="dicens-nav-link">Temáticas</a>
+                    <a href="../../frases-celebres.html" class="dicens-nav-link">Frases Célebres</a>
+                    <a href="../../proverbios.html" class="dicens-nav-link">Proverbios</a>
+                    <a href="../../refranes.html" class="dicens-nav-link">Refranes</a>
+                    <a href="../../buscar.html"><span class="material-symbols-outlined dicens-nav-link">search</span></a>
+                </div>
+            </div>
+        </nav>
+
+    <!-- MAIN CONTENT -->
+
+        <main class="dicens-main">
+            <section id="authors" class="dicens-section">
+                <div id="authors-container" class="dicens-container dicens-section-container">
+                    
+                    <div id="authors-categories">
+
+                        <p class="dicens-section-title">Índice</p>
+
+                        <div id="authors-index">
+                            <a href="A.html"><p>A</p></a>
+                            <a href="B.html"><p>B</p></a>
+                            <a href="C.html"><p>C</p></a>
+                            <a href="D.html"><p>D</p></a>
+                            <a href="E.html"><p>E</p></a>
+                            <a href="F.html"><p>F</p></a>
+                            <a href="G.html"><p>G</p></a>
+                            <a href="H.html"><p>H</p></a>
+                            <a href="I.html"><p>I</p></a>
+                            <a href="J.html"><p>J</p></a>
+                            <a href="K.html"><p>K</p></a>
+                            <a href="L.html"><p>L</p></a>
+                            <a href="M.html"><p>M</p></a>
+                            <a href="N.html"><p>N</p></a>
+                            <a href="O.html"><p>O</p></a>
+                            <a href="P.html" class="focus"><p>P</p></a>
+                            <a href="Q.html"><p>Q</p></a>
+                            <a href="R.html"><p>R</p></a>
+                            <a href="S.html"><p>S</p></a>
+                            <a href="T.html"><p>T</p></a>
+                            <a href="U.html"><p>U</p></a>
+                            <a href="V.html"><p>V</p></a>                            
+                            <a href="W.html"><p>W</p></a>
+                            <a href="X.html"><p>X</p></a>
+                            <a href="Y.html"><p>Y</p></a>
+                            <a href="Z.html"><p>Z</p></a>
+                        </div>
+
+                        <p class="dicens-section-title">Autores con la P</p>
+                        
+                        <div class="authors-category">
+                            <div class="authors-list">
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pablo Neruda</p>
+                                            <p class="dicens-author-card-info">(1904-1973) Poeta chileno</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pablo Picasso</p>
+                                            <p class="dicens-author-card-info">(1881-1973) Pintor español</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pablo VI</p>
+                                            <p class="dicens-author-card-info">(1897-1978) Papa de la iglesia católica</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paolo Mantegazza</p>
+                                            <p class="dicens-author-card-info">(1831-1910) Antropólogo italiano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paracelso</p>
+                                            <p class="dicens-author-card-info">(1493-1541) Médico y químico suizo</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Patrick J. Kennedy</p>
+                                            <p class="dicens-author-card-info">(1967-?) Político estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Auguez</p>
+                                            <p class="dicens-author-card-info"></p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Auster</p>
+                                            <p class="dicens-author-card-info">(1947-?) Novelista y poeta estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Bowles</p>
+                                            <p class="dicens-author-card-info">(1910-1999) Escritor y compositor estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Brulat</p>
+                                            <p class="dicens-author-card-info">(1866-1940) Escritor francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Charles Bourget</p>
+                                            <p class="dicens-author-card-info">(1852-1935) Escritor francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Claudel</p>
+                                            <p class="dicens-author-card-info">(1868-1955) Escritor y diplomático francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Eluard</p>
+                                            <p class="dicens-author-card-info">(1895-1952) Poeta francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Géraldy</p>
+                                            <p class="dicens-author-card-info">(1885-1983) Poeta y dramaturgo francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Jean Toulet</p>
+                                            <p class="dicens-author-card-info">(1867-1920) Escritor y crítico francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Joseph Goebbels</p>
+                                            <p class="dicens-author-card-info">(1897-1945) Político alemán</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Masson</p>
+                                            <p class="dicens-author-card-info">(1846-1896) Periodista francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Morand</p>
+                                            <p class="dicens-author-card-info">(1888-1976) Diplomático y escritor francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Samuelson</p>
+                                            <p class="dicens-author-card-info">(1915-2009) Economista estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Valéry</p>
+                                            <p class="dicens-author-card-info">(1871-1945) Escritor francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paul Verlaine</p>
+                                            <p class="dicens-author-card-info">(1844-1895) Poeta francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Paulo Coelho</p>
+                                            <p class="dicens-author-card-info">(1947-?) Escritor brasileño</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">PaulVerhoeven</p>
+                                            <p class="dicens-author-card-info"></p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pearl S. Buck</p>
+                                            <p class="dicens-author-card-info">(1892-1973) Novelista estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pedro Almodovar</p>
+                                            <p class="dicens-author-card-info">(1950-?) Director de cine español</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pedro Calderón de la Barca</p>
+                                            <p class="dicens-author-card-info">(1600-1681) Dramaturgo y poeta español</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pedro Laín Entralgo</p>
+                                            <p class="dicens-author-card-info">(1908-2001) Escritor español</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pedro Muñoz Seca</p>
+                                            <p class="dicens-author-card-info">(1881-1936) Dramaturgo español</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pedro Ruiz</p>
+                                            <p class="dicens-author-card-info">(1947-?) Humrista, escritor y presentador español</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Peña y Goñi</p>
+                                            <p class="dicens-author-card-info"></p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Percy Bysshe Shelley</p>
+                                            <p class="dicens-author-card-info">(1792-1822) Poeta británico</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Peter Alexander Ustinov</p>
+                                            <p class="dicens-author-card-info">(1921-2004) Actor estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Peter de Vries</p>
+                                            <p class="dicens-author-card-info">(1910-1993) Editor y novelista estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Peter Drucker</p>
+                                            <p class="dicens-author-card-info">(1909-2005) Escritor y consultor austriaco</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Philip K. Dick</p>
+                                            <p class="dicens-author-card-info">(1928-1982) Escritor y novelista estadounidense</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">PhilipGibbs</p>
+                                            <p class="dicens-author-card-info"></p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Phillips Brooks</p>
+                                            <p class="dicens-author-card-info">(1835-1893) Clérigo episcopal americano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pier Paolo Pasolini</p>
+                                            <p class="dicens-author-card-info">(1922-1975) Escritor y director de cine italiano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pierre Auguste Renoir</p>
+                                            <p class="dicens-author-card-info">(1841-1919) Pintor francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pierre Augustin de Beaumarchais</p>
+                                            <p class="dicens-author-card-info">(1732-1799) Poeta dramático francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pierre Benoit</p>
+                                            <p class="dicens-author-card-info">(1886-1962) Novelista francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pierre Bonnard</p>
+                                            <p class="dicens-author-card-info">(1867-1947) Pintor francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pierre Corneille</p>
+                                            <p class="dicens-author-card-info">(1606-1684) Poeta y dramaturgo francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pierre Joseph Proudhon</p>
+                                            <p class="dicens-author-card-info">(1809-1865) Filósofo francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pierre Teilhard de Chardin</p>
+                                            <p class="dicens-author-card-info">(1881-1955) Filósofo y teólogo francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pietro Colletta</p>
+                                            <p class="dicens-author-card-info">(1775-1831) Militar e historiador italiano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pietro Metastasio</p>
+                                            <p class="dicens-author-card-info">(1698-1782) Poeta italiano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pilar Avivar</p>
+                                            <p class="dicens-author-card-info"></p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Píndaro</p>
+                                            <p class="dicens-author-card-info">(521 AC-441 AC) Poeta griego</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pío Baroja</p>
+                                            <p class="dicens-author-card-info">(1872-1956) Escritor español</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Piotr Ilich Tchaikovski</p>
+                                            <p class="dicens-author-card-info">(1840-1893) Compositor ruso</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pitaco de Mitilene</p>
+                                            <p class="dicens-author-card-info">(650 AC-?) Gobernante griego</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pitágoras de Samos</p>
+                                            <p class="dicens-author-card-info">(582 AC-497 AC) Filósofo y matemático griego</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Pitigrilli</p>
+                                            <p class="dicens-author-card-info">(1893-1975) Escritor italiano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Platón</p>
+                                            <p class="dicens-author-card-info">(427 AC-347 AC) Filósofo griego</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Plauto</p>
+                                            <p class="dicens-author-card-info">(254 AC-184 AC) Dramaturgo cómico romano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Plinio el Joven</p>
+                                            <p class="dicens-author-card-info">(62-113) Escritor romano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Plinio el Viejo</p>
+                                            <p class="dicens-author-card-info">(23-79) Caius Plinius Secundus Escritor latino.</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Plutarco</p>
+                                            <p class="dicens-author-card-info">(50-125) Escritor griego</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Príncipe Carlos José de Ligne</p>
+                                            <p class="dicens-author-card-info">(1735-1814) Escritor, mariscal y diplomático belga</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Prosper Mérimée</p>
+                                            <p class="dicens-author-card-info">(1803-1870) Escritor francés</p>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="autores/frases-de-.html">
+                                    <article class="dicens-author-card">
+                                        <div class="dicens-author-card-avatar"><img src="../../assets/avatars/default.png" /></div>
+                                        <div class="dicens-author-card-text">
+                                            <p class="dicens-author-card-name">Publio Siro</p>
+                                            <p class="dicens-author-card-info">(Siglo I AC-?) Poeta dramático romano</p>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="authors-publi">
+                        <p id="authors-publi-title">Publicidad</p>
+                        <div id="authors-publi-ad"></div>                        
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        
+    <!-- FOOTER -->
+
+        <footer class="dicens-footer">
+            <div class="dicens-container dicens-footer-container">
+                <div id="dicens-socials">
+                    <a href="https://www.instagram.com/dicens.es/">
+                        <div class="dicens-social">
+                            <div class="icon-instagram"></div>
+                            <p>Instagram</p>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/dicens_es">
+                        <div class="dicens-social">
+                            <div class="icon-twitter"></div>
+                            <p>Twitter</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="dicens-about">
+                    <div id="dicens-copyright">
+                        <p>© <span id="dicens-copyright-year"></span> Dicens. Todos los derechos reservados</p>
+                    </div>
+                    <div id="dicens-footer-links">
+                        <a href="../../privacidad.html">Política de privacidad</a>
+                        <a href="../../nosotros.html">Sobre nosotros</a>
+                        <a href="../../legal.html">Aviso Legal</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
+
+<script src="../../js/components/menu.js"></script>
+<script src="../../js/components/copyrightYear.js"></script>
