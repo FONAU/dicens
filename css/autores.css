@@ -26,16 +26,21 @@
   height: 3rem;
   width: 3rem;
   padding: 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
   border-radius: 50%;
+  border: 1px solid rgba(0,0,0,var(--text-opacity-4));
   cursor: pointer;
 }
 
 #authors-index a:hover{
-  background: var(--background-color-2);
+  background-color: var(--accent-color-3);
+  border: 1px solid var(--accent-color-1);
 }
 
 #authors-index a.focus{
-  background: var(--background-color-2);
+  background-color: var(--accent-color-3);
+  border: 1px solid var(--accent-color-1);
 }
 
 #authors-publi{
