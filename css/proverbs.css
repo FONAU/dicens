@@ -22,7 +22,7 @@
   align-items: center;
   box-sizing: border-box;
   background-color: var(--background-color-2);
-  color: rgba(0,0,0,0.50);
+  color: var(--text-color-2);
   width: auto;
   margin-right: 0.8rem;
   margin-bottom: 0.8rem;
@@ -35,11 +35,13 @@
 #proverbs-index a:hover{
   background-color: var(--accent-color-3);
   color: var(--accent-color-1);
+  opacity: 1;
 }
 
 #proverbs-index a.focus{
   background-color: var(--accent-color-3);
   color: var(--accent-color-1);
+  opacity: 1;
 }
 
 .proverbs-list{

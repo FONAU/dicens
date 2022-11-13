@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/dicens.css">
         <link rel="stylesheet" href="../css/proverbs.css">
+        <script src="../js/components/colorMode.js"></script>
     </head>
     <body>
-        <script src="../js/components/colorMode.js"></script>
     <!-- MENU -->
 
         <div id="dicens-menu" class="status-close">
@@ -38,6 +38,7 @@
                     <a href="../frases-celebres.html" class="dicens-nav-link">Frases Célebres</a>
                     <a href="../proverbios.html" class="dicens-nav-link focus">Proverbios</a>
                     <a href="../refranes.html" class="dicens-nav-link">Refranes</a>
+                    <span class="material-symbols-outlined dicens-nav-link" onclick="colorSwitch()">brightness_6</span>
                     <a href="../buscar.html"><span class="material-symbols-outlined dicens-nav-link">search</span></a>
                 </div>
             </div>
@@ -80,7 +81,10 @@
                             <blockquote class="proverb-container">
                                 <p>¿Qué sentido tiene correr cuando estamos en la carretera equivocada?</p>
                                 <div class="proverb-actions">
-                                    <div class="phrase-action">
+                                    <div class="phrase-action" data-action="copy">
+                                        <span class="material-symbols-outlined">content_copy</span><p>Copiar</p>
+                                    </div>
+                                    <div class="phrase-action" data-action="twit">
                                         <div class="icon-twitter"></div><p>Twittear</p>
                                     </div>
                                 </div>
@@ -88,7 +92,10 @@
                             <blockquote class="proverb-container">
                                 <p>Mira a las estrellas, pero no te olvides de encender la lumbre en el hogar</p>
                                 <div class="proverb-actions">
-                                    <div class="phrase-action">
+                                    <div class="phrase-action" data-action="copy">
+                                        <span class="material-symbols-outlined">content_copy</span><p>Copiar</p>
+                                    </div>
+                                    <div class="phrase-action" data-action="twit">
                                         <div class="icon-twitter"></div><p>Twittear</p>
                                     </div>
                                 </div>
@@ -96,7 +103,10 @@
                             <blockquote class="proverb-container">
                                 <p>Si prestas, o pierdes el dinero o ganas un enemigo</p>
                                 <div class="proverb-actions">
-                                    <div class="phrase-action">
+                                    <div class="phrase-action" data-action="copy">
+                                        <span class="material-symbols-outlined">content_copy</span><p>Copiar</p>
+                                    </div>
+                                    <div class="phrase-action" data-action="twit">
                                         <div class="icon-twitter"></div><p>Twittear</p>
                                     </div>
                                 </div>
@@ -104,7 +114,10 @@
                             <blockquote class="proverb-container">
                                 <p>El enano ve gigantes por todas partes</p>
                                 <div class="proverb-actions">
-                                    <div class="phrase-action">
+                                    <div class="phrase-action" data-action="copy">
+                                        <span class="material-symbols-outlined">content_copy</span><p>Copiar</p>
+                                    </div>
+                                    <div class="phrase-action" data-action="twit">
                                         <div class="icon-twitter"></div><p>Twittear</p>
                                     </div>
                                 </div>
@@ -112,7 +125,10 @@
                             <blockquote class="proverb-container">
                                 <p>Las ideas están exentas de impuestos</p>
                                 <div class="proverb-actions">
-                                    <div class="phrase-action">
+                                    <div class="phrase-action" data-action="copy">
+                                        <span class="material-symbols-outlined">content_copy</span><p>Copiar</p>
+                                    </div>
+                                    <div class="phrase-action" data-action="twit">
                                         <div class="icon-twitter"></div><p>Twittear</p>
                                     </div>
                                 </div>
@@ -166,5 +182,4 @@
 
 <script src="../js/components/menu.js"></script>
 <script src="../js/components/copyrightYear.js"></script>
-
-<script src="../js/lib/papaparse.min.js"></script>
+<script src="../js/components/phraseActions.js"></script>

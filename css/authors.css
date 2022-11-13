@@ -22,7 +22,7 @@
   align-items: center;
   box-sizing: border-box;
   background-color: var(--background-color-2);
-  color: rgba(0,0,0,0.50);
+  color: var(--text-color-2);
   min-width: 4.8rem;
   min-height: 3.7rem;
   margin-right: 0.8rem;
