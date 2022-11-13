@@ -9,18 +9,13 @@
         <meta name="description" content="Dicens es tu portal para encontrar frases celebres y proverbios de muchos autores">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/dicens.css">
-        <link rel="stylesheet" href="css/proverbios.css">
+        <link rel="stylesheet" href="css/proverbs.css">
     </head>
     <body>
+        <script src="js/components/colorMode.js"></script>
     <!-- MENU -->
 
         <div id="dicens-menu" class="status-close">
-            <a id="menu-search-button" href="buscar.html">
-                <div>
-                    <span class="material-symbols-outlined">search</span>
-                    <p>Buscar</p>
-                </div>
-            </a>
             <a href="autores.html" class="dicens-menu-link">Autores</a>
             <a href="tematicas.html" class="dicens-menu-link">Temáticas</a>
             <a href="frases-celebres.html" class="dicens-menu-link">Frases Célebres</a>
@@ -43,6 +38,7 @@
                     <a href="frases-celebres.html" class="dicens-nav-link">Frases Célebres</a>
                     <a href="proverbios.html" class="dicens-nav-link focus">Proverbios</a>
                     <a href="refranes.html" class="dicens-nav-link">Refranes</a>
+                    <span class="material-symbols-outlined dicens-nav-link" onclick="colorSwitch()">brightness_6</span>
                     <a href="buscar.html"><span class="material-symbols-outlined dicens-nav-link">search</span></a>
                 </div>
             </div>
@@ -51,7 +47,46 @@
     <!-- MAIN CONTENT -->
     
         <main class="dicens-main">
+            <section id="proverbs" class="dicens-section">
+                <div id="proverbs-container" class="dicens-container dicens-section-container">
+                    
+                    <div id="proverbs-categories">
+                        
+                        <p class="dicens-section-title">Origen</p>
 
+                        <div id="proverbs-index">
+                            <a href="proverbios/africanos.html"><p>África</p></a>
+                            <a href="proverbios/alemanes.html"><p>Alemania</p></a>
+                            <a href="proverbios/americanos.html"><p>América</p></a>
+                            <a href="proverbios/arabes.html"><p>Arabia</p></a>
+                            <a href="proverbios/chinos.html"><p>China</p></a>
+                            <a href="proverbios/daneses.html"><p>Dinamarca</p></a>
+                            <a href="proverbios/egipcios.html"><p>Egipcio</p></a>
+                            <a href="proverbios/escoceses.html"><p>Escocia</p></a>
+                            <a href="proverbios/hindus.html"><p>India</p></a>
+                            <a href="proverbios/indios.html"><p>India</p></a>
+                            <a href="proverbios/irlandeses.html"><p>Irlanda</p></a>
+                            <a href="proverbios/italianos.html"><p>Italia</p></a>
+                            <a href="proverbios/japoneses.html"><p>Japón</p></a>
+                            <a href="proverbios/judios.html"><p>Judíos</p></a>
+                            <a href="proverbios/latinos.html"><p>Latinoamérica</p></a>
+                            <a href="proverbios/mexicanos.html"><p>México</p></a>
+                            <a href="proverbios/persas.html"><p>Persia</p></a>
+                            <a href="proverbios/polacos.html"><p>Polonia</p></a>
+                            <a href="proverbios/rusos.html"><p>Rusia</p></a>
+                        </div>
+                        
+                        <p class="dicens-section-title">Proverbios populares</p>
+
+                    </div>
+
+                    <div class="dicens-section-container-side-publi">
+                        <p class="side-publi-title">Publicidad</p>
+                        <div class="side-publi-ad"></div>
+                    </div>
+
+                </div>
+            </section>
         </main>
         
     <!-- FOOTER -->

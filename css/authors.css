@@ -1,0 +1,68 @@
+#authors-container{
+  display: flex;
+  flex-direction: row;
+}
+
+#authors-categories{
+  width: 100%;
+}
+
+#authors-index{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-bottom: 3.2rem;
+}
+
+#authors-index a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--background-color-2);
+  color: rgba(0,0,0,0.50);
+  min-width: 4.8rem;
+  min-height: 3.7rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-radius: 1.6rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+#authors-index a:hover{
+  background-color: var(--accent-color-3);
+  color: var(--accent-color-1);
+}
+
+#authors-index a.focus{
+  background-color: var(--accent-color-3);
+  color: var(--accent-color-1);
+}
+
+
+.authors-category{
+  margin-bottom: 1.6rem;
+}
+
+.authors-category-name{
+  font-weight: 500;
+  color: var(--accent-color-1);
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+}
+
+.authors-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.authors-list .dicens-author-card{
+  margin-right: 1.6rem;
+  margin-bottom: 1.6rem;
+}

@@ -43,33 +43,6 @@
   border: 1px solid var(--accent-color-1);
 }
 
-#authors-publi{
-  box-sizing: border-box;
-  min-width: 332px;
-  max-height: 676px;
-  margin-left: 1rem;
-  padding: 1rem;
-  border: 1px solid rgba(0,0,0,var(--text-opacity-4));
-  border-radius: 1rem;
-}
-
-#authors-publi-ad{
-  min-width: 300px;
-  min-height: 600px;
-}
-
-@media screen and (max-width: 768px){
-  #authors-publi{
-    display: none;
-  }
-}
-
-#authors-publi-title{
-  font-weight: 500;
-  opacity: 0.50;
-  margin-bottom: 1rem;
-}
-
 .authors-category{
   margin-bottom: 1rem;
 }

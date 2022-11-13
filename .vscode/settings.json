@@ -1,0 +1,88 @@
+{
+  "workbench.tree.indent": 16,
+  "editor.minimap.maxColumn": 84,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.background": "#4040402c",
+		"editorIndentGuide.activeBackground": "#505050"
+  },
+  "window.zoomLevel": 0,
+  "editor.fontSize": 14,
+  "highlight.regexes": {
+    "(//\\s*)(#)(.*)": [
+      {
+        "fontWeight": "bold",
+      },
+      {         
+        "fontWeight": "bold",
+      },
+      {        
+        "fontWeight": "bold",
+      }
+    ],
+    "(<!--) (.*) (-->)": [
+      {
+        "fontWeight": "bold",
+      },
+      {         
+        "fontWeight": "bold",
+      },
+      {        
+        "fontWeight": "bold",
+      }
+    ],        
+    "(//\\s*)(#region|#endregion)": [
+      {
+        "color": "rgba(0,0,0,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+      },
+      {
+        "color": "rgba(255,255,255,0.8)",
+        "backgroundColor": "transparent",
+        "fontWeight": "bold",
+        "borderRadius": "0px"
+      }         
+    ],
+    "(//\\ TODO:.*)": [
+      {
+        "fontWeight": "bold",
+        "backgroundColor": "#f7a400",
+        "color": "#1f1f1f"
+      },
+      {         
+        "fontWeight": "bold",
+        "backgroundColor": "#f7a400",
+        "color": "#1f1f1f"
+      },
+      {        
+        "fontWeight": "bold",
+        "backgroundColor": "#f7a400",
+        "color": "#1f1f1f"
+      }
+    ],
+    "(//\\ FIXME:.*)": [
+      {
+        "fontWeight": "bold",
+        "backgroundColor": "#f70000"
+      },
+      {         
+        "fontWeight": "bold",
+        "backgroundColor": "#f70000"
+      },
+      {        
+        "fontWeight": "bold",
+        "backgroundColor": "#f70000"
+      }
+    ],
+    "(//\\ REVIEW:.*)": [
+      {
+        "fontWeight": "bold"
+      },
+      {         
+        "fontWeight": "bold"
+      },
+      {        
+        "fontWeight": "bold"
+      }
+    ]
+  }
+}
