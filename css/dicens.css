@@ -109,7 +109,7 @@ body{
 }
 
 .dicens-nav{
-  position: sticky;
+  position: relative;
   display: flex;
   justify-content: center;
   background: var(--background-color-1);
