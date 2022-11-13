@@ -112,6 +112,7 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: var(--background-color-1);
   height: 96px;
 }
