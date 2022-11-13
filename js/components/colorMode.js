@@ -1,4 +1,4 @@
-document.body.dataset.colorMode = localStorage.getItem("colorMode");
+document.body.dataset.colorMode =  localStorage.getItem("colorMode") ? localStorage.getItem("colorMode"):"light";
 
 var colorModes = ["dark", "light"];
 var colorSwitch = function(){
