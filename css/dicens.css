@@ -1,4 +1,4 @@
-body[data-color-mode="dark"]{
+html[data-color-mode="dark"]{
   --text-color-1: #FFF;
   --background-color-1: #212121;
   --background-color-2: rgba(0,0,0,0.25);
@@ -12,7 +12,7 @@ body[data-color-mode="dark"]{
   --text-opacity-4: 0.12;
 }
 
-body[data-color-mode="light"]{
+html[data-color-mode="light"]{
   --text-color-1: #000;
   --background-color-1: #FFFFFF;
   --background-color-2: rgba(0,0,0,0.05);

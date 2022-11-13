@@ -1,4 +1,4 @@
-document.body.dataset.colorMode =  localStorage.getItem("colorMode") ? localStorage.getItem("colorMode"):"light";
+document.documentElement.dataset.colorMode =  localStorage.getItem("colorMode") ? localStorage.getItem("colorMode"):"light";
 
 var colorModes = ["dark", "light"];
 var colorSwitch = function(){
@@ -10,5 +10,5 @@ var colorSwitch = function(){
         color = colorModes[(colorModes.indexOf(color) + 1)%colorModes.length];
     }
     localStorage.setItem("colorMode", color);
-    document.body.dataset.colorMode = color;
+    document.documentElement.dataset.colorMode = color;
 };
