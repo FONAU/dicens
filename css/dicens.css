@@ -113,6 +113,7 @@ body{
   display: flex;
   justify-content: center;
   background: var(--background-color-1);
+  height: 96px;
 }
 
 .dicens-nav-container{
